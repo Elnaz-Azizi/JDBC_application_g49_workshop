@@ -1,5 +1,9 @@
 package se.lexicon.jdbcApplication;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class DatabaseConnector {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/world";
     private static final String JDBC_USER = "root";
