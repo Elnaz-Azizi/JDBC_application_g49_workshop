@@ -1,4 +1,4 @@
-package se.lexicon.jdbcApplication;
+package se.lexicon.jdbc_workshop;
 
 public class City {
     private int id;
@@ -60,5 +60,16 @@ public class City {
 
     public void setPopulation(int population) {
         this.population = population;
+    }
+
+    @Override
+    public String toString() {
+        return "City{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", countryCode='" + countryCode + '\'' +
+                ", district='" + district + '\'' +
+                ", population=" + population +
+                '}';
     }
 }

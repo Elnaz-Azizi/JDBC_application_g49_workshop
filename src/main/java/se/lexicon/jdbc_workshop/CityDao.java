@@ -1,4 +1,5 @@
-package se.lexicon.jdbcApplication;
+package se.lexicon.jdbc_workshop;
+import java.sql.SQLException;
 import java.util.List;
 
 public interface CityDao {
